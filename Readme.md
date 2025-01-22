@@ -42,6 +42,15 @@ Exploratory visualizations provided insights such as:
 - `Age`: Filled missing values using median imputation.
 - `Embarked`: Filled missing values using mode imputation.
 
+Screen Shots
+
+![1](./screenshots/survival_by_age.png)
+![2](./screenshots/survival_by_embark.png)
+![3](./screenshots/survival_by_family.png)
+![4](./screenshots/survival_by_fare.png)
+![5](./screenshots/sbygender.png)
+![5](./screenshots/subypasclass.png)
+
 ### Feature Engineering
 
 - Created `FamilySize` by summing `SibSp` and `Parch` to capture family influence.
@@ -154,6 +163,15 @@ The selected model was applied to the test dataset and final predictions were sa
   - The ROC curve for Gradient Boosting is the closest to the top-left corner, indicating its superior ability to balance sensitivity and specificity.
   - Neural Network and Logistic Regression have slightly less steep curves, showing comparable but lower discriminative power.
 
+Screen Shots
+
+![1](./screenshots/fcheatmap.png)
+![2](./screenshots/gs.png)
+![3](./screenshots/missign.png)
+![4](./screenshots/roc.png)
+![5](./screenshots/rocall.png)
+![5](./screenshots/gs.png)
+
 ---
 
 ## 4. Ethical Analysis
@@ -205,13 +223,7 @@ The project aimed to build a predictive model to classify Titanic passengers as 
 
 4. **Ethical Considerations:**
    - Analyzed bias and fairness aspects related to gender and class disparities.
-  
-Screen Shots
-![1](./screenshots/fcheatmap.png)
-![2](./screenshots/gs.png)
-![3](./screenshots/missign.png)
-![4](./screenshots/roc.png)
-![5](./screenshots/rocall.png)
+
 
 ### Key Results
 
