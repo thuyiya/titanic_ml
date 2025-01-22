@@ -39,6 +39,8 @@ Exploratory visualizations provided insights such as:
 
 ### Handling Missing Values
 
+![3](./screenshots/missign.png)
+
 - `Age`: Filled missing values using median imputation.
 - `Embarked`: Filled missing values using mode imputation.
 
@@ -167,7 +169,6 @@ Screen Shots
 
 ![1](./screenshots/fcheatmap.png)
 ![2](./screenshots/gs.png)
-![3](./screenshots/missign.png)
 ![4](./screenshots/roc.png)
 ![5](./screenshots/rocall.png)
 ![5](./screenshots/gs.png)
